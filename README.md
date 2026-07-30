@@ -75,13 +75,13 @@ Maintained by **[PyShine](https://pyshine.com)** -- 600+ free programming tutori
 
 ### Tutorials
 
-1. **[Python Installation and Setup](https://pyshine.com/Python-Installation-and-Setup/)**
+1. **[Python Installation and Setup](https://pyshine.com/Learn-Python-Part-01/)**
    - Install Python 3.12+
    - Set up VS Code
    - Create a virtual environment
    - Install packages with pip
 
-2. **[Python Variables and Data Types](https://pyshine.com/Python-Variables-and-Data-Types/)**
+2. **[Python Variables and Data Types](https://pyshine.com/Learn-Python-Part-01/)**
    ```python
    # Numbers
    age = 25              # int
@@ -99,7 +99,7 @@ Maintained by **[PyShine](https://pyshine.com)** -- 600+ free programming tutori
    address = None
    ```
 
-3. **[Python Control Flow](https://pyshine.com/Python-Control-Flow/)**
+3. **[Python Control Flow](https://pyshine.com/Learn-Python-Part-01/)**
    ```python
    # if/elif/else
    score = 85
@@ -120,7 +120,7 @@ Maintained by **[PyShine](https://pyshine.com)** -- 600+ free programming tutori
            break
    ```
 
-4. **[Python Functions](https://pyshine.com/Python-Functions-Tutorial/)**
+4. **[Python Functions](https://pyshine.com/Learn-Python-in-One-Post-Complete-Tutorial-Async-Type-Hints-Quick-Start/)**
    ```python
    def greet(name, greeting="Hello"):
        """Greet someone with a custom message."""
@@ -135,7 +135,7 @@ Maintained by **[PyShine](https://pyshine.com)** -- 600+ free programming tutori
    print(square(5))  # 25
    ```
 
-5. **[Python Data Structures](https://pyshine.com/Python-Data-Structures/)**
+5. **[Python Data Structures](https://pyshine.com/Learn-Python-in-One-Post-Complete-Tutorial-Async-Type-Hints-Quick-Start/)**
    ```python
    # Lists (mutable, ordered)
    fruits = ["apple", "banana", "cherry"]
@@ -152,7 +152,7 @@ Maintained by **[PyShine](https://pyshine.com)** -- 600+ free programming tutori
    unique_numbers = {1, 2, 3, 3, 2, 1}  # {1, 2, 3}
    ```
 
-6. **[Python String Manipulation](https://pyshine.com/Python-Strings-Tutorial/)**
+6. **[Python String Manipulation](https://pyshine.com/Learn-Python-in-One-Post-Complete-Tutorial-Async-Type-Hints-Quick-Start/)**
    ```python
    # String methods
    text = "Hello, World!"
@@ -172,7 +172,7 @@ Maintained by **[PyShine](https://pyshine.com)** -- 600+ free programming tutori
    print(text[::-1])  # !dlroW ,olleH
    ```
 
-7. **[Python File I/O](https://pyshine.com/Python-File-IO-Tutorial/)**
+7. **[Python File I/O](https://pyshine.com/Learn-Python-in-One-Post-Complete-Tutorial-Async-Type-Hints-Quick-Start/)**
    ```python
    # Reading files
    with open("input.txt", "r") as f:
@@ -242,7 +242,7 @@ Maintained by **[PyShine](https://pyshine.com)** -- 600+ free programming tutori
            break
    ```
 
-4. **[Decorators Deep Dive](https://pyshine.com/Python-Decorators-Tutorial/)**
+4. **[Decorators Deep Dive](https://pyshine.com/Learn-Python-in-One-Post-Complete-Tutorial-Async-Type-Hints-Quick-Start/)**
    ```python
    from functools import wraps
    import time
@@ -284,7 +284,7 @@ Maintained by **[PyShine](https://pyshine.com)** -- 600+ free programming tutori
 
 ### Tutorials
 
-1. **[Python OOP Tutorial](https://pyshine.com/Python-OOP-Tutorial/)**
+1. **[Python OOP Tutorial](https://pyshine.com/Learn-Python-in-One-Post-Complete-Tutorial-Async-Type-Hints-Quick-Start/)**
    ```python
    class Animal:
        def __init__(self, name, sound):
@@ -306,7 +306,6 @@ Maintained by **[PyShine](https://pyshine.com)** -- 600+ free programming tutori
    print(dog.fetch())   # Buddy fetches the ball!
    ```
 
-2. **[Design Patterns in Python](https://pyshine.com/Python-Design-Patterns/)**
    ```python
    # Singleton
    class Database:
@@ -369,7 +368,7 @@ Maintained by **[PyShine](https://pyshine.com)** -- 600+ free programming tutori
        return fibonacci(n-1) + fibonacci(n-2)
    ```
 
-2. **[Async/Await Tutorial](https://pyshine.com/Python-Async-Await-Tutorial/)**
+2. **[Async/Await Tutorial](https://pyshine.com/Learn-Python-in-One-Post-Complete-Tutorial-Async-Type-Hints-Quick-Start/)**
    ```python
    import asyncio
    import aiohttp
@@ -388,7 +387,7 @@ Maintained by **[PyShine](https://pyshine.com)** -- 600+ free programming tutori
    results = asyncio.run(fetch_all(urls))
    ```
 
-3. **[Python Type Hints Tutorial](https://pyshine.com/Python-Type-Hints-Tutorial/)**
+3. **[Python Type Hints Tutorial](https://pyshine.com/Learn-Python-in-One-Post-Complete-Tutorial-Async-Type-Hints-Quick-Start/)**
    ```python
    from typing import List, Dict, Optional, Union
 
@@ -422,7 +421,7 @@ Maintained by **[PyShine](https://pyshine.com)** -- 600+ free programming tutori
 
 ### Tutorials
 
-1. **[FastAPI Tutorial - Build REST APIs](https://pyshine.com/FastAPI-Tutorial-Build-REST-APIs/)**
+1. **[FastAPI Tutorial - Build REST APIs](https://pyshine.com/Learn-FastAPI-in-One-Post-Complete-Tutorial-Pydantic-Async-Dependency-Injection-Quick-Start/)**
    ```python
    from fastapi import FastAPI, HTTPException
    from pydantic import BaseModel
@@ -449,7 +448,7 @@ Maintained by **[PyShine](https://pyshine.com)** -- 600+ free programming tutori
        return {"id": item_id, **item.dict()}
    ```
 
-2. **[SQLAlchemy Tutorial](https://pyshine.com/SQLAlchemy-Tutorial/)**
+2. **[SQLAlchemy Tutorial](https://pyshine.com/Learn-SQL-in-One-Post-Complete-Tutorial-Joins-Window-Functions-Transactions-Quick-Start/)**
    ```python
    from sqlalchemy import create_engine, Column, Integer, String
    from sqlalchemy.orm import declarative_base, sessionmaker
@@ -467,7 +466,7 @@ Maintained by **[PyShine](https://pyshine.com)** -- 600+ free programming tutori
    Session = sessionmaker(bind=engine)
    ```
 
-3. **[Web Scraping with BeautifulSoup](https://pyshine.com/Web-Scraping-with-BeautifulSoup/)**
+3. **[Web Scraping with BeautifulSoup](https://pyshine.com/Scrapling-Adaptive-Web-Scraping-AI-Element-Tracking/)**
 
 ### Projects to Build
 - REST API for a blog
@@ -487,7 +486,7 @@ Maintained by **[PyShine](https://pyshine.com)** -- 600+ free programming tutori
 
 ### Tutorials
 
-1. **[Introduction to AI Agents](https://pyshine.com/Introduction-to-AI-Agents/)**
+1. **[Introduction to AI Agents](https://pyshine.com/12-Factor-Agents-Reliable-LLM-Powered-Software/)**
    ```python
    from openai import OpenAI
 
@@ -506,11 +505,11 @@ Maintained by **[PyShine](https://pyshine.com)** -- 600+ free programming tutori
    print(ai_agent("Write a Python function to sort a list"))
    ```
 
-2. **[Build Your First AI Agent](https://pyshine.com/Build-Your-First-AI-Agent/)**
+2. **[Build Your First AI Agent](https://pyshine.com/Build-Your-Own-X-Master-Programming-by-Recreating-Technologies/)**
 
-3. **[Machine Learning with Python](https://pyshine.com/Machine-Learning-with-Python/)**
+3. **[Machine Learning with Python](https://pyshine.com/Learn-Machine-Learning-in-One-Post-Complete-Tutorial-Supervised-Unsupervised-Deep-Learning-Quick-Start/)**
 
-4. **[Docker for Python Developers](https://pyshine.com/Docker-for-Python-Developers/)**
+4. **[Docker for Python Developers](https://pyshine.com/Learn-Docker-in-One-Post-Complete-Tutorial-Dockerfile-Volumes-Compose-Quick-Start/)**
 
 ### Projects to Build
 - AI chatbot
